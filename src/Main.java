@@ -3,6 +3,6 @@ public class Main {
 
         BmiService service = new BmiService();
         int bmi = service.calculate(98, 1.87);
-        System.out.println(bmi);
+        System.out.println("Индекс массы тела равен " + bmi);
     }
 }
